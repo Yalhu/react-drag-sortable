@@ -1,7 +1,9 @@
 Sortable (by drag and drop) list React Component with auto width
 ===
 
-## Please note I don't maintain this project anymore, as I think there are now better alternatives out there
+Fork and update the project, since the author does not maintain this anymore.
+
+> Please note I don't maintain this project anymore, as I think there are now better alternatives out there
 
 
 ## Installation
@@ -185,7 +187,7 @@ These will be added soon. Please do not hesitate to add some !
 
 I am a full-stack Javascript developer based in Lyon, France.
 
-[Check out my website](http://www.thomschell.com)
+<!-- [Check out my website](http://www.thomschell.com) -->
 
 ## License
 
