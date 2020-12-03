@@ -196,8 +196,9 @@ class DragSortableList extends React.Component {
     }
 
     if(type === 'placeholder') {
-      style.width = dragging.width // set with and height
-      style.height = dragging.height
+      // set with and height || _PS: 没有拿到margin，会造成移动时（高度）样式影响
+      // style.width = dragging.width
+      // style.height = dragging.height
       classNames += ' placeholder'
       return (
         <div ref={this.ref + 'placeholder'} key={'placeholder'} className={classNames} style={style}>
